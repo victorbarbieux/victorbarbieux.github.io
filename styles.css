@@ -1,0 +1,58 @@
+/* ============================= */
+/* Style général du site */
+/* ============================= */
+
+html, body {
+    height: 100%; /* Garantit la hauteur sur toute la page */
+}
+
+body {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Fond gris clair sur tout le site */
+    color: #333;
+}
+
+
+
+.container {
+    min-height: calc(100vh - 100px); /* Empêche le fond de "s'arrêter" */
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    background-color: #e6e6e6;
+    color: #333;
+}
